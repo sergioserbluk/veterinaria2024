@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class AltaClientes
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class AltaClientes
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -37,6 +37,13 @@ Partial Class AltaClientes
         Me.BtnCancelar = New System.Windows.Forms.Button()
         Me.BtnGuardar = New System.Windows.Forms.Button()
         Me.BtnSalir = New System.Windows.Forms.Button()
+        Me.DgvClientes = New System.Windows.Forms.DataGridView()
+        Me.dni = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.apellido = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.direccion = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.telefono = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.DgvClientes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -51,7 +58,7 @@ Partial Class AltaClientes
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(107, 109)
+        Me.Label2.Location = New System.Drawing.Point(109, 69)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(26, 13)
         Me.Label2.TabIndex = 1
@@ -60,7 +67,7 @@ Partial Class AltaClientes
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(107, 138)
+        Me.Label3.Location = New System.Drawing.Point(109, 98)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 13)
         Me.Label3.TabIndex = 2
@@ -69,7 +76,7 @@ Partial Class AltaClientes
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(107, 165)
+        Me.Label4.Location = New System.Drawing.Point(109, 125)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 13)
         Me.Label4.TabIndex = 3
@@ -78,7 +85,7 @@ Partial Class AltaClientes
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(107, 192)
+        Me.Label5.Location = New System.Drawing.Point(109, 152)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(55, 13)
         Me.Label5.TabIndex = 4
@@ -87,7 +94,7 @@ Partial Class AltaClientes
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(107, 219)
+        Me.Label6.Location = New System.Drawing.Point(109, 179)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(52, 13)
         Me.Label6.TabIndex = 5
@@ -96,7 +103,7 @@ Partial Class AltaClientes
         'TxtDni
         '
         Me.TxtDni.Enabled = False
-        Me.TxtDni.Location = New System.Drawing.Point(186, 106)
+        Me.TxtDni.Location = New System.Drawing.Point(188, 66)
         Me.TxtDni.Name = "TxtDni"
         Me.TxtDni.Size = New System.Drawing.Size(100, 20)
         Me.TxtDni.TabIndex = 6
@@ -104,7 +111,7 @@ Partial Class AltaClientes
         'TxtApellido
         '
         Me.TxtApellido.Enabled = False
-        Me.TxtApellido.Location = New System.Drawing.Point(186, 132)
+        Me.TxtApellido.Location = New System.Drawing.Point(188, 92)
         Me.TxtApellido.Name = "TxtApellido"
         Me.TxtApellido.Size = New System.Drawing.Size(100, 20)
         Me.TxtApellido.TabIndex = 7
@@ -112,7 +119,7 @@ Partial Class AltaClientes
         'TxtNombre
         '
         Me.TxtNombre.Enabled = False
-        Me.TxtNombre.Location = New System.Drawing.Point(186, 158)
+        Me.TxtNombre.Location = New System.Drawing.Point(188, 118)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(100, 20)
         Me.TxtNombre.TabIndex = 8
@@ -120,7 +127,7 @@ Partial Class AltaClientes
         'TxtDireccion
         '
         Me.TxtDireccion.Enabled = False
-        Me.TxtDireccion.Location = New System.Drawing.Point(186, 186)
+        Me.TxtDireccion.Location = New System.Drawing.Point(188, 146)
         Me.TxtDireccion.Name = "TxtDireccion"
         Me.TxtDireccion.Size = New System.Drawing.Size(100, 20)
         Me.TxtDireccion.TabIndex = 9
@@ -128,14 +135,14 @@ Partial Class AltaClientes
         'TxtTelefono
         '
         Me.TxtTelefono.Enabled = False
-        Me.TxtTelefono.Location = New System.Drawing.Point(186, 212)
+        Me.TxtTelefono.Location = New System.Drawing.Point(188, 172)
         Me.TxtTelefono.Name = "TxtTelefono"
         Me.TxtTelefono.Size = New System.Drawing.Size(100, 20)
         Me.TxtTelefono.TabIndex = 10
         '
         'BtnNuevo
         '
-        Me.BtnNuevo.Location = New System.Drawing.Point(328, 132)
+        Me.BtnNuevo.Location = New System.Drawing.Point(330, 69)
         Me.BtnNuevo.Name = "BtnNuevo"
         Me.BtnNuevo.Size = New System.Drawing.Size(75, 23)
         Me.BtnNuevo.TabIndex = 11
@@ -145,7 +152,7 @@ Partial Class AltaClientes
         'BtnCancelar
         '
         Me.BtnCancelar.Enabled = False
-        Me.BtnCancelar.Location = New System.Drawing.Point(328, 177)
+        Me.BtnCancelar.Location = New System.Drawing.Point(330, 114)
         Me.BtnCancelar.Name = "BtnCancelar"
         Me.BtnCancelar.Size = New System.Drawing.Size(75, 23)
         Me.BtnCancelar.TabIndex = 12
@@ -155,7 +162,7 @@ Partial Class AltaClientes
         'BtnGuardar
         '
         Me.BtnGuardar.Enabled = False
-        Me.BtnGuardar.Location = New System.Drawing.Point(328, 219)
+        Me.BtnGuardar.Location = New System.Drawing.Point(330, 156)
         Me.BtnGuardar.Name = "BtnGuardar"
         Me.BtnGuardar.Size = New System.Drawing.Size(75, 23)
         Me.BtnGuardar.TabIndex = 13
@@ -164,18 +171,61 @@ Partial Class AltaClientes
         '
         'BtnSalir
         '
-        Me.BtnSalir.Location = New System.Drawing.Point(395, 278)
+        Me.BtnSalir.Location = New System.Drawing.Point(462, 420)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(75, 23)
         Me.BtnSalir.TabIndex = 14
         Me.BtnSalir.Text = "Salir"
         Me.BtnSalir.UseVisualStyleBackColor = True
         '
+        'DgvClientes
+        '
+        Me.DgvClientes.AllowUserToAddRows = False
+        Me.DgvClientes.AllowUserToDeleteRows = False
+        Me.DgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DgvClientes.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dni, Me.apellido, Me.nombre, Me.direccion, Me.telefono})
+        Me.DgvClientes.Location = New System.Drawing.Point(13, 208)
+        Me.DgvClientes.Name = "DgvClientes"
+        Me.DgvClientes.ReadOnly = True
+        Me.DgvClientes.Size = New System.Drawing.Size(523, 180)
+        Me.DgvClientes.TabIndex = 15
+        '
+        'dni
+        '
+        Me.dni.HeaderText = "DNI"
+        Me.dni.Name = "dni"
+        Me.dni.ReadOnly = True
+        '
+        'apellido
+        '
+        Me.apellido.HeaderText = "Apellido"
+        Me.apellido.Name = "apellido"
+        Me.apellido.ReadOnly = True
+        '
+        'nombre
+        '
+        Me.nombre.HeaderText = "Nombre"
+        Me.nombre.Name = "nombre"
+        Me.nombre.ReadOnly = True
+        '
+        'direccion
+        '
+        Me.direccion.HeaderText = "Dirección"
+        Me.direccion.Name = "direccion"
+        Me.direccion.ReadOnly = True
+        '
+        'telefono
+        '
+        Me.telefono.HeaderText = "Teléfono"
+        Me.telefono.Name = "telefono"
+        Me.telefono.ReadOnly = True
+        '
         'AltaClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(519, 343)
+        Me.ClientSize = New System.Drawing.Size(569, 464)
+        Me.Controls.Add(Me.DgvClientes)
         Me.Controls.Add(Me.BtnSalir)
         Me.Controls.Add(Me.BtnGuardar)
         Me.Controls.Add(Me.BtnCancelar)
@@ -193,6 +243,7 @@ Partial Class AltaClientes
         Me.Controls.Add(Me.Label1)
         Me.Name = "AltaClientes"
         Me.Text = "AltaClientes"
+        CType(Me.DgvClientes, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -213,4 +264,10 @@ Partial Class AltaClientes
     Friend WithEvents BtnCancelar As Button
     Friend WithEvents BtnGuardar As Button
     Friend WithEvents BtnSalir As Button
+    Friend WithEvents DgvClientes As DataGridView
+    Friend WithEvents dni As DataGridViewTextBoxColumn
+    Friend WithEvents apellido As DataGridViewTextBoxColumn
+    Friend WithEvents nombre As DataGridViewTextBoxColumn
+    Friend WithEvents direccion As DataGridViewTextBoxColumn
+    Friend WithEvents telefono As DataGridViewTextBoxColumn
 End Class

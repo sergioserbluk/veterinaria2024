@@ -79,10 +79,24 @@
     <Compile Include="AltaClientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Clientes.vb" />
+    <Compile Include="EliminarCliente.Designer.vb">
+      <DependentUpon>EliminarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="login.Designer.vb">
       <DependentUpon>login.vb</DependentUpon>
     </Compile>
     <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mascotas.vb" />
+    <Compile Include="ModificacionesClientes.Designer.vb">
+      <DependentUpon>ModificacionesClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificacionesClientes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="veterinaria.vb">
@@ -113,8 +127,14 @@
     <EmbeddedResource Include="AltaClientes.resx">
       <DependentUpon>AltaClientes.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EliminarCliente.resx">
+      <DependentUpon>EliminarCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificacionesClientes.resx">
+      <DependentUpon>ModificacionesClientes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
