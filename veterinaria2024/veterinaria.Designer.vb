@@ -68,13 +68,13 @@ Partial Class veterinaria
         'AltasToolStripMenuItem
         '
         Me.AltasToolStripMenuItem.Name = "AltasToolStripMenuItem"
-        Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.AltasToolStripMenuItem.Text = "Altas"
         '
         'ModificacionesToolStripMenuItem
         '
         Me.ModificacionesToolStripMenuItem.Name = "ModificacionesToolStripMenuItem"
-        Me.ModificacionesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModificacionesToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ModificacionesToolStripMenuItem.Text = "Modificaciones"
         '
         'BajasToolStripMenuItem
@@ -86,7 +86,7 @@ Partial Class veterinaria
         'ListadosToolStripMenuItem
         '
         Me.ListadosToolStripMenuItem.Name = "ListadosToolStripMenuItem"
-        Me.ListadosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListadosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ListadosToolStripMenuItem.Text = "Listados"
         '
         'MascotasToolStripMenuItem
@@ -100,25 +100,25 @@ Partial Class veterinaria
         'RegistroToolStripMenuItem
         '
         Me.RegistroToolStripMenuItem.Name = "RegistroToolStripMenuItem"
-        Me.RegistroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RegistroToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.RegistroToolStripMenuItem.Text = "Registro"
         '
         'ModificarToolStripMenuItem
         '
         Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.ModificarToolStripMenuItem.Text = "Modificar"
         '
         'BajasToolStripMenuItem1
         '
         Me.BajasToolStripMenuItem1.Name = "BajasToolStripMenuItem1"
-        Me.BajasToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.BajasToolStripMenuItem1.Size = New System.Drawing.Size(125, 22)
         Me.BajasToolStripMenuItem1.Text = "Bajas"
         '
         'ListarToolStripMenuItem
         '
         Me.ListarToolStripMenuItem.Name = "ListarToolStripMenuItem"
-        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.ListarToolStripMenuItem.Text = "Listar"
         '
         'ProductosToolStripMenuItem
@@ -132,25 +132,25 @@ Partial Class veterinaria
         'IngresosToolStripMenuItem
         '
         Me.IngresosToolStripMenuItem.Name = "IngresosToolStripMenuItem"
-        Me.IngresosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IngresosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.IngresosToolStripMenuItem.Text = "Ingresos"
         '
         'EgresosToolStripMenuItem
         '
         Me.EgresosToolStripMenuItem.Name = "EgresosToolStripMenuItem"
-        Me.EgresosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.EgresosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.EgresosToolStripMenuItem.Text = "Egresos"
         '
         'ModificacionesToolStripMenuItem1
         '
         Me.ModificacionesToolStripMenuItem1.Name = "ModificacionesToolStripMenuItem1"
-        Me.ModificacionesToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ModificacionesToolStripMenuItem1.Size = New System.Drawing.Size(155, 22)
         Me.ModificacionesToolStripMenuItem1.Text = "Modificaciones"
         '
         'ListadosToolStripMenuItem1
         '
         Me.ListadosToolStripMenuItem1.Name = "ListadosToolStripMenuItem1"
-        Me.ListadosToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ListadosToolStripMenuItem1.Size = New System.Drawing.Size(155, 22)
         Me.ListadosToolStripMenuItem1.Text = "Listados"
         '
         'VentasToolStripMenuItem
@@ -164,13 +164,13 @@ Partial Class veterinaria
         'NuevoToolStripMenuItem
         '
         Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
-        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.NuevoToolStripMenuItem.Text = "Nuevo"
         '
         'ListarToolStripMenuItem1
         '
         Me.ListarToolStripMenuItem1.Name = "ListarToolStripMenuItem1"
-        Me.ListarToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.ListarToolStripMenuItem1.Size = New System.Drawing.Size(109, 22)
         Me.ListarToolStripMenuItem1.Text = "Listar"
         '
         'UsuariosToolStripMenuItem
